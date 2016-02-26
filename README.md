@@ -20,8 +20,7 @@ Author: Pham Quang Nhat Minh
 
 ### Linear Regression
 
-Xem ipython notebook tại [https://bitbucket.org/minhpqn/machine-learning-dojo/code/linear_regression/LinearRegression.ipynb](https://bitbucket.org/minhpqn/machine-learning-dojo/code/linear_regression/LinearRegression.ipynb).
-
+Xem ipython notebook tại [LinearRegression.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/linear_regression/LinearRegression.ipynb)
 
 
 
