@@ -26,6 +26,10 @@ Xem ipython notebook tại [LinearRegression.ipynb](https://github.com/minhpqn/M
 
 Xem ipython notebook tại [LogisticRegression.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/logistic_regression/LogisticRegression.ipynb)
 
+### Multi-class Classification and Neural Networks
+
+Xem ipython notebook tại [Multi-class_NN.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/multi_class_nn/Multi-class_NN.ipynb)
+
 
 
 
