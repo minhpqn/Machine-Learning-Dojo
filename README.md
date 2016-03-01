@@ -22,6 +22,10 @@ Author: Pham Quang Nhat Minh
 
 Xem ipython notebook tại [LinearRegression.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/linear_regression/LinearRegression.ipynb)
 
+### Logistic Regression
+
+Xem ipython notebook tại [LogisticRegression.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/logistic_regression/LogisticRegression.ipynb)
+
 
 
 
