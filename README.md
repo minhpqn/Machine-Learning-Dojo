@@ -30,6 +30,12 @@ Xem ipython notebook tại [LogisticRegression.ipynb](https://github.com/minhpqn
 
 Xem ipython notebook tại [Multi-class_NN.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/multi_class_nn/Multi-class_NN.ipynb)
 
+### Neural Network Learning
+
+Xem ipython note tại [Neural_Networks_Learning.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/neural_networks_learning/Neural_Networks_Learning.ipynb)
+
+Xem python script tại [Neural_Networks_Learning.py](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/neural_networks_learning/Neural_Networks_Learning.py)
+
 
 
 
