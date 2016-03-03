@@ -16,6 +16,6 @@ if __name__ == '__main__':
 	m = X.shape[0]
 
 	num_sample = 100
-	sel = np.random.choice(range(0, m), size=num_sample, replace=True)
+	sel = np.random.choice(range(0, m), size=num_sample, replace=False)
 
 	
