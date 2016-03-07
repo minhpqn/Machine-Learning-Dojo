@@ -27,6 +27,10 @@ Xem ipython notebook tại [LogisticRegression.ipynb](https://github.com/minhpqn
 
 Xem ipython notebook tại [Multi-class_NN.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/multi_class_nn/Multi-class_NN.ipynb)
 
+Python script cho phần [Multi-class Classification](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/multi_class_nn/multi_class_classification.py) với Logistic Regression.
+
+Python script để hiển thị 100 chữ viết tay; [display_image.py](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/multi_class_nn/display_image.py).
+
 ### Neural Network Learning
 
 Xem ipython note tại [Neural_Networks_Learning.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/neural_networks_learning/Neural_Networks_Learning.ipynb)
@@ -39,6 +43,23 @@ Xem python script [regularized_linear_regression.py](https://github.com/minhpqn/
 
 *Note*: Do có sự khác nhau về các thuật toán tối ưu hoá nên kết quả cài đặt bằng python có thể có sai khác so với cài đặt bằng octave. Hiện tại tôi chưa biết cách khắc phục do chưa biết các hàm tối ưu hoá tương đương với hàm ```fmincg``` trong octave.
 
+### Support Vector Machines
+
+Đề bài gốc của khoá học (tiếng Anh): [ex6.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/support_vector_machines/ex6.pdf)
+
+[Python script cho phần Support Vector Machines](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/support_vector_machines/support_vector_machines.py)
+
+[Python script cho phần Spam Classification](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/support_vector_machines/support_vector_machines.py)
+
+[SVM Notes](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/docs/SVM_Notes.ipynb) ghi lại những điểm mình thấy quan trọng trong Support Vector Machines.
+
+### K-Means Clustering and PCA
+
+Đề bài: [ex7.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/kmeans_pca/ex7.pdf)
+
+Python script cho phần [K-Means](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/kmeans_pca/kmeans.py)
+
+Python script cho phần [Principal Component Analysis](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/kmeans_pca/PCA.py)
 
 ## Tài liệu tham khảo thêm về khoá học Machine Learning
 
