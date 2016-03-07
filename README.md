@@ -17,13 +17,19 @@ Author: Pham Quang Nhat Minh
 
 ### Linear Regression
 
+Đề bài: [ex1.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/linear_regression/ex1.pdf)
+
 Xem ipython notebook tại [LinearRegression.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/linear_regression/LinearRegression.ipynb)
 
 ### Logistic Regression
 
+Đề bài: [ex2.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/logistic_regression/ex2.pdf)
+
 Xem ipython notebook tại [LogisticRegression.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/logistic_regression/LogisticRegression.ipynb)
 
 ### Multi-class Classification and Neural Networks
+
+Đề bài: [ex3.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/multi_class_nn/ex3.pdf) 
 
 Xem ipython notebook tại [Multi-class_NN.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/multi_class_nn/Multi-class_NN.ipynb)
 
@@ -33,11 +39,17 @@ Python script để hiển thị 100 chữ viết tay: [display_image.py](https:
 
 ### Neural Network Learning
 
+Đề bài: [ex4.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/neural_networks_learning/ex4.pdf)
+
 Xem ipython note tại [Neural_Networks_Learning.ipynb](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/neural_networks_learning/Neural_Networks_Learning.ipynb)
 
 Xem python script tại [Neural_Networks_Learning.py](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/neural_networks_learning/Neural_Networks_Learning.py)
 
 ### Regularized Linear Regression and Bias/Variance
+
+Đề bài: [ex5.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/regularized_linear_regression/ex5.pdf)
+
+Lời khuyên (của GS Andrew Ng) khi vận dụng Machine Learning trong các bài toán thực tế: [ML-advice.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/docs/ML-advice.pdf)
 
 Xem python script [regularized_linear_regression.py](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/regularized_linear_regression/regularized_linear_regression.py).
 
