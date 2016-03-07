@@ -29,7 +29,7 @@ Xem ipython notebook tại [Multi-class_NN.ipynb](https://github.com/minhpqn/Mac
 
 Python script cho phần [Multi-class Classification](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/multi_class_nn/multi_class_classification.py) với Logistic Regression.
 
-Python script để hiển thị 100 chữ viết tay; [display_image.py](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/multi_class_nn/display_image.py).
+Python script để hiển thị 100 chữ viết tay: [display_image.py](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/multi_class_nn/display_image.py).
 
 ### Neural Network Learning
 
@@ -49,7 +49,7 @@ Xem python script [regularized_linear_regression.py](https://github.com/minhpqn/
 
 [Python script cho phần Support Vector Machines](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/support_vector_machines/support_vector_machines.py)
 
-[Python script cho phần Spam Classification](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/support_vector_machines/support_vector_machines.py)
+[Python script cho phần Spam Classification](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/support_vector_machines/spam_classification.py)
 
 [SVM Notes](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/docs/SVM_Notes.ipynb) ghi lại những điểm mình thấy quan trọng trong Support Vector Machines.
 
