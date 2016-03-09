@@ -4,7 +4,7 @@ Re-implement all programming assignments in the course [Machine Learning](https:
 
 Author: Pham Quang Nhat Minh
 
-Cài đặt lại các bài tập lập trình của khoá học Machine Learning trên coursera bằng ngôn ngữ Python (giáo sư Andrew Ng giảng). Thông qua project này, tôi có cơ hội "refresh" kiến thức Machine Learning của mình và rèn luyện tay nghề lập trình Python.
+Cài đặt lại các bài tập lập trình của khoá học Machine Learning trên coursera bằng ngôn ngữ Python (giáo sư Andrew Ng giảng). Thông qua project này, tôi có cơ hội "refresh" kiến thức Machine Learning của mình và rèn luyện tay nghề lập trình Python, đặc biệt là nâng cao kinh nghiệm sử dụng thư viện cho tính toán khoa học trong python như scikit-learn, numpy, scipy, matplotlib - các thư viện rất tiện dụng của python, theo tôi có thể tương đương với Matlab.
 
 ## List of programming assignments
 
