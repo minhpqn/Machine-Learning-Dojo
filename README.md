@@ -73,6 +73,18 @@ Python script cho phần [K-Means](https://github.com/minhpqn/Machine-Learning-D
 
 Python script cho phần [Principal Component Analysis](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/kmeans_pca/PCA.py)
 
+### Anomaly Detection and Recommender Systems
+
+Đề bài [ex8.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/anomaly_detection_recommender_sys/ex8.pdf)
+
+Xem lại slide bài giảng phần Anomaly Detection tại [Lecture15.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/anomaly_detection_recommender_sys/Lecture15.pdf).
+
+Phần Recommender Systems, xem slide bài giảng tại [Lecture16.pdf](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/anomaly_detection_recommender_sys/Lecture16.pdf)
+
+Python script cho phần Anomaly Detection tại [anomaly_detection.py](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/anomaly_detection_recommender_sys/anomaly_detection.py)
+
+Python script cho phần Recommender Systems tại [recommender_system.py](https://github.com/minhpqn/Machine-Learning-Dojo/blob/master/code/anomaly_detection_recommender_sys/recommender_system.py)
+
 ## Tài liệu tham khảo thêm về khoá học Machine Learning
 
 - [CS 229 Machine Learning Course Materials](http://cs229.stanford.edu/materials.html). Bao gồm Handouts, Lecture Notes và Section Notes của khoá học. Nội dung của khoá học được tóm tắt, hệ thống hoá nên rất tiện cho việc tham khảo.
