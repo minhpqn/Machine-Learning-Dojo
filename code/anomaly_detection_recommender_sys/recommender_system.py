@@ -11,7 +11,8 @@ import matplotlib.pyplot as plt
 from scipy.io import loadmat
 from scipy.optimize import fmin_bfgs, fmin_l_bfgs_b
 
-def cofiCostFuncNonVectorized(params, Y, R, num_users, num_movies,                             num_features, _lambda):
+def cofiCostFuncNonVectorized(params, Y, R, num_users, num_movies,
+                              num_features, _lambda):
 	""" Collaborative filtering cost function
 		Non-vectorized implementation
 
@@ -31,7 +32,7 @@ def cofiCostFuncNonVectorized(params, Y, R, num_users, num_movies,              
 	                                                num_features)
 
 	Theta = params[(num_movies*num_features):].reshape(num_users,
-		                                               num_features)
+                                                           num_features)
 
 	J = 0
 	for i in xrange(num_movies):
@@ -43,7 +44,7 @@ def cofiCostFuncNonVectorized(params, Y, R, num_users, num_movies,              
 
 	return J
 
-def cofiCostFunc(params, Y, R, num_users, num_movies,                             num_features, _lambda):
+def cofiCostFunc(params, Y, R, num_users, num_movies, num_features, _lambda):
 	""" Collaborative filtering cost function
 	    Vectorized implementation
 	"""
@@ -51,7 +52,7 @@ def cofiCostFunc(params, Y, R, num_users, num_movies,                           
 	                                                num_features)
 
 	Theta = params[(num_movies*num_features):].reshape(num_users,
-		                                               num_features)
+                                                           num_features)
 
 	J = np.sum( ((np.dot(X, Theta.T) - Y)  * R) ** 2 )/2
 	J += _lambda/2 * ( np.sum(Theta ** 2) + np.sum(X ** 2) )
@@ -59,7 +60,8 @@ def cofiCostFunc(params, Y, R, num_users, num_movies,                           
 	return J
 
 
-def cofiGradNonVectorized(params, Y, R, num_users, num_movies,                             num_features, _lambda):
+def cofiGradNonVectorized(params, Y, R, num_users, num_movies,
+                          num_features, _lambda):
 	""" Collaborative filtering gradient
 	"""
 
@@ -105,7 +107,7 @@ def cofiGrad(params, Y, R, num_users, num_movies, num_features, _lambda):
 	                                                num_features)
 
 	Theta = params[(num_movies*num_features):].reshape(num_users,
-		                                               num_features)
+                                                           num_features)
 
 	X_grad = np.zeros(X.shape)
 	Theta_grad = np.zeros(Theta.shape)
