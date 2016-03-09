@@ -66,19 +66,17 @@ def visualizeBoundarySklearn(X, y, clf):
 	"""
 
 	print 'Visualizing non-linear decision boundary ...'
+	fig = plt.figure()
 	plot_data(X, y)
 	x1plot = np.linspace(np.min(X[:,0]), np.max(X[:,0]), 100)
 	x2plot = np.linspace(np.min(X[:,1]), np.max(X[:,1]), 100)
 	xx1, xx2 = np.meshgrid(x1plot, x2plot)
 
-	z = np.zeros( shape=(len(x1plot), len(x2plot)) )
-	for i in xrange(len(x1plot)):
-		for j in xrange(len(x2plot)):
-			x = np.array( [x1plot[i], x2plot[i]] ).reshape(1,2)
-			yp = clf.predict(x)
-			z[i,j] = yp[0]
-	z = z.T	
-	plt.contour(x1plot, x2plot, z) 
+	Z = clf.predict(np.c_[xx1.ravel(), xx2.ravel()])	
+	Z = Z.reshape(xx1.shape)	
+	plt.contour(xx1, xx2, Z, alpha=0.8) 
+	plt.draw()
+	plt.pause(0.5)
 
 def gaussianKernel(x1, x2, sigma):
 	""" Compute Gaussian kernel between two examples x1, x2
@@ -110,10 +108,6 @@ if __name__ == '__main__':
 	y = data['y']
 	# in python numpy, it is preferred to use 1D array
 	y = y.flatten()
-
-	print 'Print shape of (X, y)'
-	print X.shape
-	print y.shape
 
 	print '\nPlot training data'
 
@@ -165,10 +159,7 @@ if __name__ == '__main__':
 	X = data['X']
 	y = data['y']
 	y = y.flatten()
-	print 'Print shape of (X, y)'
-	print X.shape
-	print y.shape
-
+	
 	fig = plt.figure()
 	plot_data(X, y)
 	plt.axis([0, 1, 0.4, 1])
@@ -194,10 +185,8 @@ if __name__ == '__main__':
 	clf.fit(X, y)
 	fig = plt.figure()
 	visualizeBoundarySklearn(X, y, clf)
-	plt.axis([0, 1, 0.4, 1])
-	plt.draw()
-	plt.pause(0.05)
 	raw_input('<Press Enter to continue>')
+	plt.close(fig)
 
 
 	# =============== Part 6: Visualizing Dataset 3 ================
@@ -211,13 +200,6 @@ if __name__ == '__main__':
 	yval = data['yval']
 	y = y.flatten()
 	yval = yval.flatten()
-	print 'Print shape of (X, y)'
-	print X.shape
-	print y.shape
-
-	print 'Print shape of (Xval, yval)'
-	print Xval.shape
-	print yval.shape
 
 	fig = plt.figure()
 	plot_data(X, y)
@@ -251,9 +233,8 @@ if __name__ == '__main__':
  	clf.fit(X, y)
  	fig = plt.figure()
 	visualizeBoundarySklearn(X, y, clf)
-	plt.draw()
-	plt.pause(0.05)
 	raw_input('<Press Enter to continue>')
+	plt.close(fig)
 
 
 

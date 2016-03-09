@@ -53,14 +53,14 @@ pause
 %
 fprintf('Visualizing Gaussian fit.\n\n');
 
-%  Estimate my and sigma2
+% Estimate my and sigma2
 [mu sigma2] = estimateGaussian(X);
 
-%  Returns the density of the multivariate normal at each data point (row) 
+% Returns the density of the multivariate normal at each data point (row) 
 %  of X
 p = multivariateGaussian(X, mu, sigma2);
 
-%  Visualize the fit
+% Visualize the fit
 visualizeFit(X,  mu, sigma2);
 xlabel('Latency (ms)');
 ylabel('Throughput (mb/s)');

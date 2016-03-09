@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # Compute cost function in the case of multi variables
 def compute_cost_multi(X, y, theta):
 	m = y.shape[0]
-	return  ( ( np.dot(X, theta) - y ) ** 2 ).sum()
+	return  ( ( np.dot(X, theta) - y ) ** 2 ).sum() / (2*m)
 
 def gradient_descent_multi(X, y, theta, alpha, num_iters):
 	m = y.shape[0]
@@ -76,7 +76,9 @@ if __name__ == '__main__':
 	plt.plot( range(1, J_history.shape[0] + 1), J_history )
 	plt.xlabel('Number of iterations');
 	plt.ylabel('Cost J');
-	plt.show()
+	plt.draw()
+	plt.pause(0.01)
+	raw_input('<Press Enter to continue>\n')
 
 	print 'Theta computed from gradient descent: %s' % theta.T
 
