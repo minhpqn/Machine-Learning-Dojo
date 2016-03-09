@@ -93,6 +93,8 @@ Python script cho phần Recommender Systems tại [recommender_system.py](https
 
 - [CS 229 Machine Learning Course Materials](http://cs229.stanford.edu/materials.html). Bao gồm Handouts, Lecture Notes và Section Notes của khoá học. Nội dung của khoá học được tóm tắt, hệ thống hoá nên rất tiện cho việc tham khảo.
 - [Stanford Machine Learning](http://www.holehouse.org/mlclass/) trên trang [holehouse dot org], tài liệu này có thể hữu ích nhưng không hữu ích bằng Lecture Notes của khoá học CS 229.
+- [Multivariate Gaussian Distribution](https://en.wikipedia.org/wiki/Multivariate_normal_distribution), trên Wikipedia. Kiến thức này được sử dụng trong anomaly detection để xác định các *outliers* trong dữ liệu.
+- [How to make beautiful data visualizations in Python with matplotlib](http://www.randalolson.com/2014/06/28/how-to-make-beautiful-data-visualizations-in-python-with-matplotlib/), by Randy Olson.
 
 
 
