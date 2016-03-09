@@ -1,8 +1,10 @@
 # Machine Learning Dojo Project
 
-Implement all programming assignments in the course [Machine Learning](https://www.coursera.org/learn/machine-learning) by Prof Andrew Ng on Coursera, from scratch.
+Re-implement all programming assignments in the course [Machine Learning](https://www.coursera.org/learn/machine-learning) by Prof Andrew Ng on Coursera in Python programming language.
 
 Author: Pham Quang Nhat Minh
+
+Cài đặt lại các bài tập lập trình của khoá học Machine Learning trên coursera bằng ngôn ngữ Python (giáo sư Andrew Ng giảng). Thông qua project này, tôi có cơ hội "refresh" kiến thức Machine Learning của mình và rèn luyện tay nghề lập trình Python.
 
 ## List of programming assignments
 
